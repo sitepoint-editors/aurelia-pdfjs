@@ -1,0 +1,18 @@
+pdf-document {
+  display: block;
+  position: relative;
+}
+
+pdf-document .pdf-container {
+  background-color: #bbb;
+  overflow: auto;
+  height: 100%;
+  height: 600px;
+  width: 100%;
+}
+
+pdf-document canvas {
+  background-color: #fff;
+  border: 1px solid #000;
+  margin: 5px;
+}
