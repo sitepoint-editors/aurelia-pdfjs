@@ -20,6 +20,7 @@ System.config({
     "aurelia-templating-binding": "npm:aurelia-templating-binding@1.0.0",
     "aurelia-templating-resources": "npm:aurelia-templating-resources@1.0.0",
     "aurelia-templating-router": "npm:aurelia-templating-router@1.0.0",
+    "aurelia-task-queue": "npm:aurelia-task-queue@1.0.0",
     "bluebird": "npm:bluebird@3.4.1",
     "bootstrap": "github:twbs/bootstrap@3.3.7",
     "fetch": "github:github/fetch@1.0.0",
