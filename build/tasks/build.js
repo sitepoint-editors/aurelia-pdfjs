@@ -42,9 +42,9 @@ gulp.task('build-css', function() {
 });
 
 gulp.task('export-documents', function () {
-	return gulp.src(paths.documents)
-		.pipe(changed(paths.output, {extension: '.pdf'}))
-		.pipe(gulp.dest(paths.output));
+  return gulp.src(paths.documents)
+    .pipe(changed(paths.output, {extension: '.pdf'}))
+    .pipe(gulp.dest(paths.output));
 });
 
 // this task calls the clean task (located

@@ -1,9 +1,9 @@
 <template>
-	<require from="./pdf-document.css"></require>
+  <require from="./pdf-document.css"></require>
 
-	<div ref="container" id.bind="fingerprint" class="pdf-container" scroll.trigger="pageHandler()" scroll.trigger2="renderHandler() & debounce:100">
-		<div repeat.for="page of lastpage" class="text-center">
-			<canvas id="${fingerprint}-page${(page + 1)}"></canvas>
-		</div>
-	</div>
+  <div ref="container" id.bind="fingerprint" class="pdf-container" scroll.trigger="pageHandler()" scroll.trigger2="renderHandler() & debounce:100">
+    <div repeat.for="page of lastpage" class="text-center">
+      <canvas id="${fingerprint}-page${(page + 1)}"></canvas>
+    </div>
+  </div>
 </template>
